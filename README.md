@@ -20,3 +20,8 @@
 
 		(5).在index.js中檢測store中狀態的改變, 一但發生改變重新渲染<App/>
 				備註: redux只負責管理狀態, 至於狀態的改變驅動著頁面的展示, 要靠我們自己寫
+
+## 2.求合案例_redux完整版
+		新增文件:
+			1.count_action.js 專門用於創建action對象
+			2.constant.js 放置容易寫錯的type值

@@ -5,7 +5,7 @@
 // 引入createStore, 專門用於創建redux中最為核心的store對象
 import {createStore} from 'redux'
 // 引入為Count組件服務的reducer
-import countReducer from './couny_reducer'
+import countReducer from './count_reducer'
 // 暴露store
 export default createStore(countReducer)
 

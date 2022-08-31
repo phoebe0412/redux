@@ -58,3 +58,10 @@
 						{key:xxxxxAction} //映射操作狀態的方法
 					)(UI組件)
 			(3).在UI組件通過this.props.xxxxxxx讀取和操作狀態
+
+## 6.求和案例_react-redux數據共享版
+	(1).定義一個Person組件, 和Count組件通過redux共享數據
+	(2).為Person組件編寫: reducer 、action, 配置constant常量
+	(3).重點: Person的reducer和Count的Reducer要使用combinReducers進行合併,
+			合併後的總狀態是一個對象!!!
+	(4).交給store的是總reducer, 最後注意在群組中取出狀態的時候, 記得"取到位"
